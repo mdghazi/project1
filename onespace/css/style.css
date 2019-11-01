@@ -1,0 +1,55 @@
+body {
+    margin: auto;
+}
+
+.navbar{
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a  {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+.form{
+  padding-top: 80px;
+  max-width: 500px;
+  margin: auto;
+ /* margin-top: 15px;*/
+  font-size: 20px;
+
+}
+
+input, select{
+  margin-bottom: 20px;
+}
+
+fieldset{
+border:none;
+width:500px;
+margin:0px auto;
+ display: inline-block;
+/*  float: left;*/
+}
+
+.wel{
+  text-align: left;
+  padding-top: 100px;
+  font-size: 25px
+}
+
